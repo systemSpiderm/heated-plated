@@ -1,0 +1,2 @@
+# heated-plated
+借助pthread封装的并行for循环库、OpenMPI、OpenMP等不同方法对热图模拟问题的并行优化

@@ -1,0 +1,727 @@
+desc: --time-unit=B --stacks=yes
+cmd: ./heated_plate_parallel 1024 1024 4
+time_unit: B
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=95569280
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=167152
+heap_tree=detailed
+n3: 16778496 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 8388608 0x109295: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 8388608 0x1092A0: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 1280 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=2
+#-----------
+time=147799504
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=273888
+heap_tree=detailed
+n3: 16778496 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 8388608 0x109295: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 8388608 0x1092A0: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 1280 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=3
+#-----------
+time=225343040
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=436048
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=317917760
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=629504
+heap_tree=detailed
+n3: 16778496 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 8388608 0x109295: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 8388608 0x1092A0: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 1280 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=5
+#-----------
+time=375813184
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=750288
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=457053736
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=922184
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=536138776
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=1085560
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=658398184
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=1340920
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=749228320
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=1530528
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=830633720
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=1700616
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=887468352
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=1820672
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=965978096
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=1983120
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=1086879792
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=2235584
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=1167067600
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=2403168
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=1264611832
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=2606824
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=1373061368
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=2833352
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=1482201128
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=3061224
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=1592778256
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=3294032
+heap_tree=detailed
+n3: 16778496 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 8388608 0x109295: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 8388608 0x1092A0: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 1280 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=19
+#-----------
+time=1656069160
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=3424424
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=1768129128
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=3658344
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=1865261136
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=3861184
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=1983500000
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=4110032
+heap_tree=detailed
+n3: 16778496 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 8388608 0x109295: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 8388608 0x1092A0: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 1280 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=23
+#-----------
+time=2060183608
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=4268264
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=2160485704
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=4477400
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=2261378512
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=4688240
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=2344402992
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=4861472
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=2390163472
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=4959312
+heap_tree=detailed
+n3: 16778496 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 8388608 0x109295: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 8388608 0x1092A0: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 1280 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=28
+#-----------
+time=2486017984
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=5157344
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=2551875632
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=5294752
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=2637889312
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=5474848
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=2705823344
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=5618512
+heap_tree=detailed
+n3: 16778496 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 8388608 0x109295: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 8388608 0x1092A0: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 1280 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=32
+#-----------
+time=2763336048
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=5736688
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=2846667432
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=5910440
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=2913412688
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=6050160
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=2988306624
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=6206288
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=3097785088
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=6435280
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=3208339648
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=6665808
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=3286594472
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=6829560
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=3353339744
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=6968512
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=3432755696
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=7134448
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=3546826392
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=7373032
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=3661664992
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=7612176
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=3711304352
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=7718352
+heap_tree=detailed
+n3: 16778496 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 8388608 0x109295: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 8388608 0x1092A0: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 1280 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=44
+#-----------
+time=3811422232
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=7925544
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=3895574952
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=8101432
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=4014016416
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=8348352
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=4133840176
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=8598608
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=4188154384
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=8714192
+heap_tree=detailed
+n3: 16778496 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 8388608 0x109295: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 8388608 0x1092A0: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 1280 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=49
+#-----------
+time=4221527008
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=8781584
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=4267287496
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=8877592
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=4310294256
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=8969232
+heap_tree=detailed
+n3: 16778496 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 8388608 0x109295: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 8388608 0x1092A0: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 1280 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=52
+#-----------
+time=4356054736
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=9062544
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=4401815232
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=9158480
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=4433654304
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=9226832
+heap_tree=detailed
+n3: 16778496 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 8388608 0x109295: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 8388608 0x1092A0: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 1280 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=55
+#-----------
+time=4479414792
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=9320584
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=4525175272
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=9416104
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=4558371792
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=9487312
+heap_tree=detailed
+n3: 16778496 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 8388608 0x109295: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 8388608 0x1092A0: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 1280 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=58
+#-----------
+time=4604132272
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=9581072
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=4649892752
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=9676592
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=4684323344
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=9750352
+heap_tree=detailed
+n3: 16778496 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 8388608 0x109295: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 8388608 0x1092A0: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 1280 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=61
+#-----------
+time=4730083832
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=9844152
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=4775844336
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=9939248
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=4811521808
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=10015952
+heap_tree=detailed
+n3: 16778496 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 8388608 0x109295: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 8388608 0x1092A0: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 1280 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=64
+#-----------
+time=4857282288
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=10109712
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=4903042768
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=10205248
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=4939829168
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=10284048
+heap_tree=detailed
+n3: 16778496 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 8388608 0x109295: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 8388608 0x1092A0: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 1280 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=67
+#-----------
+time=4985589696
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=10377200
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=5031350176
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=10473184
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=5069561568
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=10554832
+heap_tree=detailed
+n3: 16778496 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 8388608 0x109295: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 8388608 0x1092A0: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 1280 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=70
+#-----------
+time=5115322056
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=10648616
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=5161082536
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=10743688
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=5200639048
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=10828248
+heap_tree=detailed
+n3: 16778496 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 8388608 0x109295: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 8388608 0x1092A0: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 1280 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=73
+#-----------
+time=5246399528
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=10921928
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=5292160008
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=11017832
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=5332808912
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=11104592
+heap_tree=detailed
+n3: 16778496 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 8388608 0x109295: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 8388608 0x1092A0: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 1280 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=76
+#-----------
+time=5378569392
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=11198352
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=5424329880
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=11293880
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=5466328320
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=11383520
+heap_tree=peak
+n3: 16778496 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 8388608 0x109295: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 8388608 0x1092A0: main (in /home/diaodeyi/high-code/lab4/task3/heated_plate_parallel)
+ n0: 1280 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=79
+#-----------
+time=5512088800
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=11476832
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=5557849304
+mem_heap_B=16778496
+mem_heap_extra_B=8128
+mem_stacks_B=11572760
+heap_tree=empty
